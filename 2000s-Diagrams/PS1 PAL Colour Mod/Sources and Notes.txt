@@ -1,0 +1,54 @@
+Below are useful posts from forums about the PS1 PAL colour mod.
+Along with sources ~ Kippykip
+
+
+Shadow:
+In order to play NTSC games on a PAL system, a colour mod is required. The information is listed for the models below. They just involve simply lifting pin 157 on the GPU (or cut the trace going to it), and then bridging the points shown in the images below (the pad of the lifted pin 157 to ground).
+
+This mod will allow you to play NTSC games in colour on your PAL system if RGB isn't available for you.
+How this works is the PAL colour carrier signal isn't correct for the RGB encoder. This mod places the correct frequency (4.43MHz) onto the colour burst line. Most if not all PAL TV's can accept this signal as PAL60.
+
+In order to colour mod anything below a 7000 series, an external oscillator is required, and is mentioned below in another post.
+
+########################################################################################################################################################
+
+nocash:
+Here are my own modding notes (tested on a PAL PSone, should be same for SCPH-7500):
+
+
+Composite NTSC/PAL Mod
+  /PAL (IC502.13) --/cut/-- /PAL (GPU.157)
+  /PAL (IC502.13) --------- GND (for PAL) or VCC (for NTSC)
+This forces the console to be always producing the desired composite color
+format (regardless of whether the GPU is in 50Hz or 60Hz mode).
+
+
+That description it might be a bit clearer about pin 157 of which chip is to be disconnected, why it's done, and where it should be connected to. And no, you cannot use the same mod on PAL and NTSC consoles, you'll either need to connect the pin to GND or VCC.
+And a basic note: That mod fixes problems with distorted color clock, it doesn't bypass region locking (for that problem you would need something else, like a modchip for example).
+
+
+
+
+########################################################################################################################################################
+http://www.psxdev.net/forum/viewtopic.php?t=444
+
+MangledLeg:
+Actually, the PAL PSX has a history of having issues rolling colour into a 60hz signal, and it's across multiple revisions of the machine.
+
+For the first run of models, you actually need to run a fresh cyrstal oscillator to feed the DAC on the board with a clean colour feed that injects the correct stream into the IC for mixing the final output. It's not unlike the issues with the Mega Drive - I've successfully modded three or four systems by severing the existing feed and running a fresh 4.43mhz PAL colour crystal oscillator to get full colour over composite and s-video regardless of the refrsh rate (i.e. 50hz or 60hz). Works an absolute treat.
+
+With later models of the big PSX consoles, I'm pretty sure you have to bridge a couple of things to get it to work, which I guess could technically be done via a modchip since all it would have to do would be to bridge or feed certain signals around the board if necessary and the IC could manage that. I've never heard of it being done myself though.
+
+That being said, my brother-in-law's PSX did NTSC games in full colour and theirs was chipped when they bought it, so perhaps it started happening at some point??
+
+With the small PSone machines, all you have to do is connect one of the pins from one of the big ICs to another point on the board - this forces native NTSC by default (even the PSX loading screen rolls into NTSC instead of PAL at boot), and then the software triggers whether to move to 50hz or 60hz once the initial loading is complete.
+
+I've done a couple of the simple NTSC colour mods on the larger PSX machines years ago, and about the same for the PSone mods, too. And by a couple, I'm talking maybe a handful in total 
+
+Give me a bit, I'll find out what you have to do for your machine. The alternative is to use a PAL-Booster unit, which is what my mate used to do with his PSX - it connects to the AV port, internally massages the signal appropriately, and has RCA sockets for composite AV-out, and takes care of fixing the colour for NTSC titles.
+
+https://www.aussiearcade.com/showthread.php/32430-PSX1-Color-Mod?p=402914#post402914
+
+
+PSOne SCPH-102 Image from:
+https://assemblergames.com/threads/playstation-1-psone-colour-correction-modification.37319/
