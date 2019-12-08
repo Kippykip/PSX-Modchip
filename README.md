@@ -5,6 +5,7 @@ The **MM3** hex dumps here work on **12C508**, **12C508a**, **12C509**, **12C509
 
 **ONEChip** (Hex\\onechip_hex_dump\\) is designed exclusively for PAL PSOne slim models.
 However the onechip only works on **12C508a** PIC chips!
+Both of these chips are **stealth** modchips.
 
 HQ Modding diagrams for the MM3 are in the **\\HQMM3-Diagrams\\** directory. 
 Classic 2000s low quality MM3/OneChip diagrams and PAL60 colour mod diagrams are in the **\\2000s-Diagrams\\** directory.
