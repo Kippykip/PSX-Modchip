@@ -2,9 +2,11 @@
 
 **MM3/MultiMode3** hex dumps (Hex\\mm3_hex_dump\\) will work with pretty much every PS1 except for the **PAL PSOne slim** models, as it has the extra detection (using some detection for custom boot logos? Use **OneChip** instead for these consoles).
 The **MM3** hex dumps here work on **12C508**, **12C508a**, **12C509**, **12C509a** PIC chips.
+12F508 may also be compatible but is not tested.
 
 **ONEChip** (Hex\\onechip_hex_dump\\) is designed exclusively for PAL PSOne slim models.
-However the onechip only works on **12C508a** PIC chips!
+However the onechip is documented to only work on **12C508a** and not 12C509/12C509a/12C508 PIC chips!
+Although in theory a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!
 Both of these chips are **stealth** modchips.
 
 HQ Modding diagrams for the MM3 are in the **\\HQMM3-Diagrams\\** directory. 

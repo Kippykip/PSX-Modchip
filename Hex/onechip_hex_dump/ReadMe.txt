@@ -8,3 +8,4 @@ All diagrams uploaded in the zip and happy chipping.
 
 This code is based on REI code and as such should be in the public domain as they intended.
 
+Edit (Kippykip): 12F508 May also be compatible with 12c508a but has not been tested.
