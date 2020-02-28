@@ -7,9 +7,9 @@ The **MM3** hex dumps here work on **12C508**, **12C508a**, **12C509**, **12C509
 A port of the original MM3 was done in 2012 for the **12F629** PIC chip (same PIC used for the WiiFree).
 Check (Hex\\MultiMode3 12F629\\) for these.
 
-**ONEChip** (Hex\\Onechip 12C508A\\) is designed exclusively for PAL PSOne slim models.
-However the onechip is documented to only work on **12C508a** and not 12C509/12C509a/12C508 PIC chips!
-~~Although a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!~~ **- Tested 28/02/2020, doesn't work and boots every CD as an Audio CD**
+**ONEChip** (Hex\\Onechip 12C508A\\) is designed exclusively for PAL PSOne slim models.  
+However the onechip is documented to only work on **12C508a** and not 12C509/12C509a/12C508 PIC chips!  
+~~Although a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!~~ **- Tested 28/02/2020, doesn't work and boots every CD as an Audio CD**  
 Both of these chips are **stealth** modchips.
 
 HQ Modding diagrams for the MM3 are in the **\\HQMM3-Diagrams\\** directory. 
