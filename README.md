@@ -9,7 +9,7 @@ Check (Hex\\MultiMode3 12F629\\) for these.
 
 **ONEChip** (Hex\\Onechip 12C508A\\) is designed exclusively for PAL PSOne slim models.
 However the onechip is documented to only work on **12C508a** and not 12C509/12C509a/12C508 PIC chips!
-Although a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!
+~~Although a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!~~ **- Tested 28/02/2020, doesn't work and boots every CD as an Audio CD**
 Both of these chips are **stealth** modchips.
 
 HQ Modding diagrams for the MM3 are in the **\\HQMM3-Diagrams\\** directory. 
