@@ -11,7 +11,8 @@ However the onechip is documented to only work on **12C508a** and not 12C509/12C
 ~~Although a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!~~ **- Tested 28/02/2020, doesn't work and boots every CD as an Audio CD**  
 A forum thread suggests a 12F509 may be compatible also and has been tested by another member. ONECHIP compatibility unknown however. I have not personally tested.  
 http://www.psxdev.net/forum/viewtopic.php?t=1541
-Both of these chips are **stealth** modchips.
+
+Both the ONEChip and MM3 chips are **stealth** modchips.
 
 HQ Modding diagrams for the MM3 are in the **\\HQMM3-Diagrams\\** directory. 
 HQ Modding diagrams for the OneChip are in the **\\HQOneChip-Diagrams\\** directory. 
