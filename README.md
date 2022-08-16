@@ -1,7 +1,7 @@
 # Sony PlayStation - Modchip HEX / Diagram Pack
 
 **MM3/MultiMode3** hex dumps (Hex\\MultiMode3 12C508X\\) will work with pretty much every PS1 except for the **PAL PSOne slim** models, as it has the extra detection (using some detection for custom boot logos? Use **OneChip** instead for these consoles).
-The **MM3** hex dumps here work on **12C508**, **12C508a**, **12C509**, **12C509a** PIC chips.
+The **MM3** hex dumps here work on **12C508**, **12C508a**, **12C509**, **12C509a** PIC chips.  
 ~~Although a rewritable version of the PIC like the **12F508**, should in theory also be compatible but is not tested!~~ **- Tested 28/02/2020, doesn't work and boots every CD as an Audio CD**  
 A port of the original MM3 was done in 2012 for the **12F629** PIC chip (same PIC used for the WiiFree).
 Check (Hex\\MultiMode3 12F629\\) for these.
